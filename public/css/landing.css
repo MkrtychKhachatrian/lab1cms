@@ -1,0 +1,249 @@
+.block1{
+    margin: 0 auto;
+    width: 100%;
+    height: 810px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back1 {
+    width: 100%;
+    height: 810px;
+    opacity: 85%;
+}
+.but1 {
+    z-index: 1;
+    position: absolute;
+    width: 770px;
+    height: 250px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 900;
+    bottom: 260px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.block2 {
+    width: 100%;
+    margin: 0 auto;
+}
+.h_l {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #457EAC;
+    font-size: 45px;
+    font-weight: 700;
+}
+.content1 {
+    height: 700px;
+    display: flex;
+}
+.content1_l {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.micro {
+    width: 570px;
+    height: 633.65px;
+    margin-right: 0;
+}
+.content1_r {
+    width: 50%;
+}
+.content1_r1 {
+    padding-left: 20px;
+    margin-right: 21%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: justify;
+}
+.content1_r2 {
+    margin-right: 21%;
+}
+.stamp_label {
+    padding-top: 17px;
+    display: flex;
+}
+.stamp_pic {
+    width: 100px;
+    height: 100px;
+}
+.stamp_text {
+    font-size: 26px;
+    font-style: normal;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.mark {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 270px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.mark_p img{
+    width: 270px;
+    height: 270px;
+}
+.mark_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:1250px) {
+    .block1 {
+        height: 648px;
+    }
+    .back1 {
+        height: 648px;
+    }
+    .but1 {
+        bottom:180px;
+    }
+    .micro {
+        width: 500px;
+        height: 555.83px;
+    }
+    .content1_r1 {
+        font-size: 20px;
+    }
+    .stamp_text {
+        font-size: 20px;
+    }
+    .stamp_label {
+        padding-top: 2px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .block1 {
+        height: 567px;
+    }
+    .back1 {
+        height: 567px;
+    }
+    .but1 {
+        bottom: 100px;
+    }
+    .h_l {
+        font-size: 35px;
+    }
+    .content1_r1 {
+        font-size: 18px;
+    }
+    .stamp_text {
+        font-size: 18px;
+    }
+    .micro {
+        width: 400px;
+        height: 444.67px;
+    }
+}
+@media screen and (max-width:850px) {
+    .block1 {
+        height: 450px;
+    }
+    .back1 {
+        height: 450px;
+    }
+    .but1 {
+        font-size: 40px;
+        width: 450px;
+        bottom: 70px;
+    }
+    .block2 {
+        height: 1070px;
+    }
+    .content1 {
+        flex-direction: column;
+    }
+    .content1_l {
+        width: 100%;
+        justify-content: center;
+    }
+    .content1_r {
+        width: 100%;
+        margin-top: 500px;
+        justify-content: center;
+    }
+    .content1_r1 {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .content1_r2 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .stamp_label {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    .block3 {
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width:540px) {
+    .block1 {
+        height: 292px;
+    }
+    .back1 {
+        height: 292px;
+    }
+    .but1 {
+        font-size: 26px;
+        bottom: 10px;
+    }
+    .h_l {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    .micro {
+        width: 300px;
+        height: 333.5px;
+    }
+    .content1 {
+        height: 400px;
+        margin-bottom: 0;
+    }
+    .content1_r {
+        margin-top: 400px;
+    }
+    .block3 {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width:320px) {
+    .block1 {
+        height: 173px;
+    }
+    .back1 {
+        height: 173px;
+    }
+    .but1 {
+        font-size: 26px;
+        bottom: 7px;
+    }
+}
