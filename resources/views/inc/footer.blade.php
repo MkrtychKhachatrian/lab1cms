@@ -2,7 +2,7 @@
     <div class="footer1">
         <div class="footer1_content">
             <div class="footer1_1">
-                <div class="logo_f" ><a href="{{ route('landing') }}"><img class="logo_pic_f" src="{{asset('img/logo.png')}}"></a></div>
+                <div class="logo_f" ><a href="\landing"><img class="logo_pic_f" src="{{asset('img/logo.png')}}"></a></div>
             </div>
             <div class="footer1_2">
                 <div class="footer1_2_h">Контакти</div>

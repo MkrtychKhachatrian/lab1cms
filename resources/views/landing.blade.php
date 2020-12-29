@@ -16,8 +16,8 @@
             <div class="content1_r">
                 <div class="content1_r1">
                     {{ $page->text }}
-                    {{ $page->datacr }}
-                    {{ $page->dataup }}
+                    {{ $page->datecr }}
+                    {{ $page->dateup }}
                 </div>
                 <div class="content1_r2">
                     <div class="stamp_label">
